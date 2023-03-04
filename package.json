@@ -9,6 +9,10 @@
     "build": "tsc src/app.ts --noEmit",
     "test": "ts-mocha test/*.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SamuraiT/ethers-js-permit.git"
+  },
   "dependencies": {
     "ethers": "5.6.9"
   },
