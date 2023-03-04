@@ -1,6 +1,6 @@
 # ethers-js-permit
 
-Ethers-js-permit is a support library for ethers-js that allows for easy generation of signatures for ERC20Permit.
+Ethers-js-permit is a support library for [ethers-js](https://github.com/ethers-io/ethers.js) that allows for easy generation of signatures for ERC20Permit.
 
 # Install
 
