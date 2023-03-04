@@ -1,9 +1,9 @@
 {
   "name": "ethers-js-permit",
-  "version": "1.0.0",
-  "description": "support to create a signature for ERC20's permit",
+  "version": "1.0.1",
+  "description": "Ethers-js-permit is a support library for ethers-js that allows for easy generation of signatures for ERC20Permit. ",
   "main": "app.js",
-  "author": "yasek",
+  "author": "SamuraiT",
   "license": "MIT",
   "scripts": {
     "build": "tsc src/app.ts --noEmit",
