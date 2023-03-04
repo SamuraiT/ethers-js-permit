@@ -1,6 +1,6 @@
 {
   "name": "ethers-js-permit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ethers-js-permit is a support library for ethers-js that allows for easy generation of signatures for ERC20Permit. ",
   "main": "dist/index.js",
   "files": [
