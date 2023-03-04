@@ -18,7 +18,7 @@ public/css/main.css
 bin
 # Coverage reports
 coverage
-
+src/*.js
 # API keys and secrets
 .env
 
