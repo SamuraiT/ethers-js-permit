@@ -11,6 +11,8 @@ yarn add ethers-js-permit
 # USAGE
 
 ```ts
+  import { signPermitSigature } from 'ethers-js-permit'
+
   const wallet = Wallet.createRandom()
   const nonce = await erc20Permit.nonce(wallet.address)
   const name = await erc20Permit.name()
