@@ -14,10 +14,10 @@ yarn add ethers-js-permit
   import { signPermitSigature } from 'ethers-js-permit'
 
   const wallet = Wallet.createRandom()
-  const nonce = await erc20Permit.nonce(wallet.address)
+  const nonce = await erc20Permit.nonces(wallet.address)
   const name = await erc20Permit.name()
   const permitConfig = {
-    nonce, // this should be take
+    nonce,
     name,
     chainId: 1, // -> this should be 1 for ethereum.
     version: '1'
